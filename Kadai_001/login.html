@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ja">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8" name="viewport" content="width=device-width,initial-scale=1">
     <title>ログイン画面</title>
     <link rel="stylesheet" href="login.css">
 </head>
@@ -11,9 +11,11 @@
     <p>UserID、Passwordをご入力の上、「ログイン」ボタンをクリックしてください</p>
   </div>
   <div class="login_form_btm">
+    <form action="AccountSearch.java" method="post">
     <input type="id" name="user_id" placeholder="UserID">
     <input type="password" name="password" placeholder="Password">
     <input type="submit" name="botton" value="ログイン">
+    </form>
     <p>アカウント登録がお済みでない方「新規登録」ボタンをクリックしてください</p>
     <input type="submit" name="botton" value="新規登録">
 
