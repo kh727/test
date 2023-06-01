@@ -1,5 +1,6 @@
 package servlet;
 
+import java.io.IOException;
 import java.io.InterruptedIOException;
 
 import javax.servlet.RequestDispatcher;
@@ -13,6 +14,7 @@ import javax.servlet.http.HttpSession;
 import dao.logintest;
 import model.AccountBeans;
 
+@SuppressWarnings("unused")
 @WebServlet("/AccountSearch")
 public class AccountSearch extends HttpServlet {
     private static final long serialVersionUID = 1L;
