@@ -7,13 +7,12 @@
     <title>ログイン画面</title>
     <link rel="stylesheet" href="login.css">
 </head>
-  <form name="login_form">
+  <form name="login_form" action="/logintest/AccountSearch" method="post">
   <div class="login_form_top">
     <h1>ログイン</h1>
     <p>UserID、Passwordをご入力の上、「ログイン」ボタンをクリックしてください</p>
   </div>
   <div class="login_form_btm">
-	<form action="../java/servlet/AccountSearch.java" method="post">
     <input type="id" name="loginId" placeholder="UserID" required>
     <input type="password" name="pass" placeholder="Password" required>
     <input type="submit" name="botton" value="ログイン">
