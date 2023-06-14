@@ -18,7 +18,7 @@
     <input type="submit" name="botton" value="ログイン">
     </form>
     <p>アカウント登録がお済みでない方「新規登録」ボタンをクリックしてください</p>
-    <a href="register.jsp"><input type="submit" name="botton" value="新規登録"></a>
+    <input type="submit" name="botton" onclick="location.href='register.jsp'" value="新規登録">
 </div>
   
 </form>
