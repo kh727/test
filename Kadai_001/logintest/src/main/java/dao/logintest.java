@@ -10,8 +10,8 @@ import model.AccountBeans;
 
 public class logintest {
 	//データベース接続に使用する情報
-	final String jdbcId = "roots";
-	final String jdbcPass = "password";
+	final String jdbcId = "loginTest";
+	final String jdbcPass = "MD_VsZ61@k9]YEng";
 	final String jdbcUrl = "jdbc:mysql://localhost:3306/test?useSSL=false";
 
 	//ログインアカウントを探す
